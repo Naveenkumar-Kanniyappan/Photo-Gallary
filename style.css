@@ -84,8 +84,7 @@ h3 {
 .arrow {
     height: 100vh;
     display: flex;
-    justify-content: space-around;
-    gap: 15%;
+    justify-content: space-between;
 }
 
 #right, #left {
@@ -140,12 +139,6 @@ h3 {
     h3 {
         font-size: 16px;
         text-decoration: none;
-    }
-
-    .arrow {
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 51%;
     }
 
     #right, #left {
