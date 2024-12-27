@@ -106,3 +106,55 @@ h3 {
     width: 30%;
     height: 75%;
 }
+
+@media screen and (max-width: 768px) {
+    .photos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .photos img {
+        height: 200px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .container img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .photos {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .photos img {
+        height: 180px;
+    }
+
+    h3 {
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .arrow {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 51%;
+        margin-top: 60%;
+    }
+
+    #right, #left {
+        font-size: 30px;
+    }
+
+    .container img {
+        width: 80%;
+        height: auto;
+    }
+}
