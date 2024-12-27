@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h3>Photo Gallery</h3>
+        </div>
+        <div class="container">
+            <button id="x">x</button>
+            <div class="arrow">
+                <button id="left" onclick="left()"><i class="fa-solid fa-circle-left"></i></button>
+                <button id="right" onclick="right()"><i class="fa-solid fa-circle-right"></i></button>
+            </div>
+            <img id="modal-image" src="" alt="Preview Image">
+        </div>
+
+        <div class="photos">
+            <img class="image" src="Assets/naruto01.webp" alt="naruto">
+            <img class="image" src="Assets/naruto02.jpg" alt="naruto">
+            <img class="image" src="Assets/naruto03.jpg" alt="naruto">
+            <img class="image" src="Assets/naruto04.jpg" alt="naruto">
+            <img class="image" src="Assets/naruto05.jpg" alt="naruto">
+            <img class="image" src="Assets/naruto06.jpg" alt="naruto">
+            <img class="image" src="Assets/naruto07.jpg" alt="naruto">
+            <img class="image" src="Assets/naruto08.jpg" alt="naruto">
+            <img class="image" src="Assets/naruto09.jpg" alt="naruto">
+            <img class="image" src="Assets/naruto10.jpeg" alt="naruto">
+        </div>
+    </div>
+    <script src="scripte.js"></script>
+</body>
+</html>
